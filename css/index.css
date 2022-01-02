@@ -1,7 +1,100 @@
-/*top*/
+/***********top黑色顶部栏*************/
 
-/*header*/
+.top {
+    height: 70px;
+    background-color: #242424;
+}
 
-/*banner*/
+.top .wrap {
+    width: 1100px;
+    margin: 0 auto;
+}
 
-/*songlist*/
+
+/*logo*/
+
+.top .wrap .logo {
+    float: left;
+    width: 176px;
+    height: 69px;
+}
+
+
+/*表单*/
+
+.top .wrap li {
+    float: left;
+    padding: 0 19px;
+    height: 70px;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    line-height: 70px;
+    color: #ccc;
+}
+
+
+/*搜索框*/
+
+
+/*创作者中心&登录*/
+
+.wrap .enter-login {
+    padding: 0px;
+    float: right;
+    height: 70px;
+}
+
+.wrap .enter-login a {
+    display: block;
+    width: 50px;
+    color: #787878;
+    text-align: center;
+    line-height: 70px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.wrap .creator-center {
+    float: right;
+}
+
+.wrap .creator-center .creator {
+    display: block;
+    float: right;
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+    border: 1px solid #4F4F4F;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+    color: #ccc;
+}
+
+.wrap .srch {
+    float: right;
+    margin-right: 10px;
+    width: 200px;
+    height: 30px;
+    margin-top: 19px;
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+.wrap .srch lable {
+    display: block;
+    line-height: 70px;
+    color: #9b9b9b;
+    cursor: text;
+}
+
+
+/**********header红色头部栏***********/
+
+
+/***********banner轮播页**************/
+
+
+/***********songlist歌单**************/
