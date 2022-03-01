@@ -164,12 +164,14 @@
 }
 
 .banner .wrap .ban-img {
+    background-color: #000;
     float: left;
     width: 730px;
 }
 
 .banner .wrap .ban-img img {
     display: block;
+    float: bottom;
     width: 730px;
 }
 
@@ -185,12 +187,13 @@
 
 .banner .wrap .download-img {
     background-image: url("https://s2.music.126.net/style/web2/img/index/download.png?697216cae463cab8d215387a3b83593c");
-    background-position: center;
     width: 252px;
     height: 285px;
-    /*background-size: 252px 285px;*/
     float: right;
     position: absolute;
+    z-index: 20;
+    right: -1;
+    background-position: 0 0;
 }
 
 .banner .wrap .download p {
@@ -208,7 +211,208 @@
     width: 20px;
     height: 285px;
     background-position: -1px 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(37, 37, 37, 0.6) 100%);
+}
+
+.banner .wrap .download .shadow-right {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 252px;
+    width: 20px;
+    height: 285px;
+    background-position: 1px 0;
+    background: linear-gradient(90deg, rgba(37, 37, 37, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.banner .wrap .btn-left,
+.banner .wrap .btn-right {
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    width: 37px;
+    height: 63px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/banner.png?bb5f2fbeffca6ceded720abacdb2bbdb);
+}
+
+.banner .wrap .btn-left {
+    left: -68px;
+    background-position: 0 300px;
+}
+
+.banner .wrap .btn-left:hover {
+    left: -68px;
+    background-position: 0 230px;
+}
+
+.banner .wrap .btn-right {
+    right: -68px;
+    background-position: 0 156px;
+}
+
+.banner .wrap .btn-right:hover {
+    right: -68px;
+    background-position: 0 86px;
 }
 
 
-/***********songlist歌单**************/
+/***********recomend-module**************/
+
+.discover-module {
+    position: relative;
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    background-position: center center;
+}
+
+.discover-module .wrap {
+    margin: 0 140px;
+    width: 980px;
+    min-height: 1400px;
+    background-color: white;
+    border: 1px solid #d3d3d3;
+}
+
+.discover-module .wrap .left-section {
+    position: relative;
+    float: left;
+    width: 731px;
+}
+
+.discover-module .wrap .right-section {
+    position: relative;
+    float: right;
+    width: 250px;
+    background-color: #9B0909;
+}
+
+.discover-module .wrap .left-section .wrap1,
+.discover-module .wrap .right-section .wrap1 {
+    padding: 20px 20px 40px 20px;
+}
+
+.discover-module .rcmd {
+    height: 33px;
+    padding: 0 10px 0 34px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?1a5654a5c00ac7d8065f27ec487e7c3e);
+    background-position: -225px -156px;
+    background-repeat: no-repeat;
+    border-bottom: 2px solid #C10D0C;
+}
+
+.rcmd .hotrcmd {
+    float: left;
+    font-family: "Microsoft Yahei", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.rcmd .tab {
+    float: left;
+    margin: 7px 0 0 20px;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rcmd .tab a {
+    padding: 0 10px 0 10px;
+}
+
+.rcmd .more {
+    float: right;
+    margin-top: 9px;
+}
+
+.rcmd .more i {
+    display: inline-block;
+    vertical-align: middle;
+    height: 12px;
+    width: 12px;
+    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?1a5654a5c00ac7d8065f27ec487e7c3e);
+    background-position: 0 -240px;
+}
+
+.rcmd .tab a:hover,
+.rcmd .more a:hover {
+    color: #666;
+}
+
+.song-list {
+    margin: 20px 0 0 -42px;
+}
+
+.song-list li {
+    display: inline-block;
+    float: left;
+    width: 140px;
+    height: 188px;
+    padding: 0 0 30px 43px;
+    line-height: 1.4;
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.song-list .cover {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+}
+
+.song-list .cover a {
+    position: absolute;
+    left: 0px;
+    width: 140px;
+    height: 140px;
+    background-image: url(https://s2.music.126.net/style/web2/img/coverall.png?3f5a2e64af5f0749e5a8a7767f72b9ed);
+    background-position: 0 0;
+}
+
+.song-list .cover .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 27px;
+    background-position: 0 -537px;
+    color: #ccc;
+    background-image: url(https://s2.music.126.net/style/web2/img/coverall.png?3f5a2e64af5f0749e5a8a7767f72b9ed);
+}
+
+.song-list .cover .icon-play {
+    position: absolute;
+    left: 120px;
+    bottom: 5px;
+    width: 16px;
+    height: 17px;
+    background-position: 0 0;
+    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png?d09c81d953ce07d4c1d997d1e16e49bf);
+}
+
+.song-list .cover .icon-headset {
+    position: absolute;
+    margin: 8px;
+    width: 16px;
+    height: 17px;
+    background-position: 0 -24px;
+    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png?d09c81d953ce07d4c1d997d1e16e49bf);
+}
+
+.song-list .cover .nb {
+    position: absolute;
+    margin-top: 6px;
+    left: 25px;
+}
+
+.song-list p {
+    position: relative;
+    top: 150px;
+    width: 140px;
+    font-size: 14px;
+}
+
+.discover-module .discover1 {
+    height: 550px;
+}
