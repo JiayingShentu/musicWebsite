@@ -152,7 +152,7 @@
 /***********banner轮播页**************/
 
 .banner {
-    background-image: url("http://p1.music.126.net/51XOzpdjzlPnf5OJyCaSvA==/109951166881357749.jpg?imageView&blur=40x20");
+    background-image: url(../image/banner2.jpg);
     background-size: 6000px;
     background-position: center center;
 }
@@ -187,7 +187,7 @@
 }
 
 .banner .wrap .download-img {
-    background-image: url("https://s2.music.126.net/style/web2/img/index/download.png?697216cae463cab8d215387a3b83593c");
+    background-image: url("../image/download.png");
     width: 252px;
     height: 285px;
     float: right;
@@ -235,7 +235,7 @@
     margin-top: -31px;
     width: 37px;
     height: 63px;
-    background-image: url(https://s2.music.126.net/style/web2/img/index/banner.png?bb5f2fbeffca6ceded720abacdb2bbdb);
+    background-image: url('../image/banner.png');
 }
 
 .banner .wrap .btn-left {
@@ -298,7 +298,7 @@
 .discover-module .rcmd {
     height: 33px;
     padding: 0 10px 0 34px;
-    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?1a5654a5c00ac7d8065f27ec487e7c3e);
+    background-image: url(../image/index.png);
     background-position: -225px -156px;
     background-repeat: no-repeat;
     border-bottom: 2px solid #C10D0C;
@@ -334,7 +334,7 @@
     vertical-align: middle;
     height: 12px;
     width: 12px;
-    background-image: url(https://s2.music.126.net/style/web2/img/index/index.png?1a5654a5c00ac7d8065f27ec487e7c3e);
+    background-image: url(../image/index.png);
     background-position: 0 -240px;
 }
 
@@ -370,7 +370,7 @@
     left: 0px;
     width: 140px;
     height: 140px;
-    background-image: url(https://s2.music.126.net/style/web2/img/coverall.png?3f5a2e64af5f0749e5a8a7767f72b9ed);
+    background-image: url(../image/coverall.png);
     background-position: 0 0;
 }
 
@@ -382,7 +382,7 @@
     height: 27px;
     background-position: 0 -537px;
     color: #ccc;
-    background-image: url(https://s2.music.126.net/style/web2/img/coverall.png?3f5a2e64af5f0749e5a8a7767f72b9ed);
+    background-image: url(../image/coverall.png);
 }
 
 .song-list .cover .icon-play {
@@ -392,7 +392,7 @@
     width: 16px;
     height: 17px;
     background-position: 0 0;
-    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png?d09c81d953ce07d4c1d997d1e16e49bf);
+    background-image: url(../image/iconall.png);
 }
 
 .song-list .cover .icon-play:hover {
@@ -405,7 +405,7 @@
     width: 16px;
     height: 17px;
     background-position: 0 -24px;
-    background-image: url(https://s2.music.126.net/style/web2/img/iconall.png?d09c81d953ce07d4c1d997d1e16e49bf);
+    background-image: url(../image/iconall.png);
 }
 
 .song-list .cover .nb {
@@ -771,5 +771,3 @@
     font-weight: bold;
     color: #333;
 }
-
-s
